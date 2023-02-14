@@ -37,13 +37,17 @@ let joldosh = {
 	let example2 ={};
 	let medina ={
 		name: "Medina",
-		age: 17,
+		age: "17",
 		height: 1.60,
 		hobby: "read",
 		book: "nike",
 		sayHello: function() {
 			console.log("hello, I'm " +this.name);
 		},
+		sayAge: function () {
+			console.log("I'm 17 " +this.age);
+		},
+		
 	}
 
 	//view, edit, add
@@ -52,12 +56,41 @@ let joldosh = {
 	 console.log(medina.age );
 	 medina.favouriteBooks =["Cindirella", "Harry Potter"];
 	 console.log(medina.favouriteBooks =["Cindirella", "Harry Potter"]);
-   medina.sayHello();
+  
 
 
   //delete
 	 delete medina.favouriteBooks;
 
 	 medina.sayHello();
+	 medina.name = "medo";
+	 medina.sayHello();
+	 medina.sayAge ();
+	 
+  
 
-   
+	 let example3 = {
+		number: 0,
+		inc: function(){
+			this.number = this.number +1;
+		},
+		add: function(num){
+			this.number = this.number + num;
+		},
+		subtract: function(num){
+			this.number = this.number - num;
+		},
+		print: function() {
+			this.number = (this.number );
+		},
+	 }
+    console.log(example3.number);
+		example3.inc();
+    example3.inc();
+    console.log(example3.number);
+		example3.add(5);
+		console.log(example3.number);
+    example3.subtract();
+		console.log(example3.number);
+    example3.print();
+		console.log(example3.number);
