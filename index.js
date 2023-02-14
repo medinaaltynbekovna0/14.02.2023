@@ -41,6 +41,7 @@ let joldosh = {
 		height: 1.60,
 		hobby: "read",
 		book: "nike",
+		sayHello: function() {},
 	}
 
 	//view, edit, add
@@ -53,3 +54,5 @@ let joldosh = {
 
   //delete
 	 delete medina.favouriteBooks;
+
+	medina.sayHello();
