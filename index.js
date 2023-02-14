@@ -52,6 +52,7 @@ let joldosh = {
 	 console.log(medina.favouriteBooks =["Cindirella", "Harry Potter"]);
 
 
+
   //delete
 	 delete medina.favouriteBooks;
 
