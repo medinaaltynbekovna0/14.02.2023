@@ -94,3 +94,13 @@ let joldosh = {
 		console.log(example3.number);
     example3.print();
 		console.log(example3.number);
+
+
+
+
+		function myName(){
+			console.log("Medina")
+		}
+		myName();
+
+		functionName ("")
