@@ -103,7 +103,7 @@ let joldosh = {
 		//1. Напишите функцию, которая выводит ваше имя и фамилию.
 // functionName("Erjan", "Kydyrov") // My  name is Erjan Kydyrov
 function myName(){
-	console.log("Medina")
+	console.log("Medina" , "Damirova")
 }
 myName();
 
