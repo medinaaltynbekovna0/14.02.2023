@@ -101,12 +101,15 @@ let joldosh = {
 		
 
 		//1. Напишите функцию, которая выводит ваше имя и фамилию.
-// functionName("Erjan", "Kydyrov") // My  name is Erjan Kydyrov
-function myName(){
-	console.log("Medina" , "Damirova")
-}
-myName();
-
+// functionName("Erjan", "Kydyrov") // My  name is Medina Damirova
+   
+function nameIs(name) {
+	   console.log("my name is " + name);
+	 }
+   function surnameIs(name) {
+	   console.log("my surname is " + name)}
+ nameIs("Medina");
+ surnameIs("Damirova");
 
 //2. Напишите функцию, которая выводит объем конуса по заданным параметрам - высота (height) и радиус (radius).
 // functionName(height, radius) // Объем конуса равен ...
@@ -171,7 +174,10 @@ for (let i = 1; i < 15; i--){
 //14. Создайте массив из строк и добавьте в начало массива 2 новых элемента, а в конец 3.
 
 //15. Создайте массив чисел и вычислите сумму всех четных чисел в массиве.
-
+function sum(a, b){
+	console.log(a,b);
+}
+sum(5, 5)
 //17. Создайте массив строк и объедините их в одну строку. // ["I", "like", "to", "eat!"]
 
 
