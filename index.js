@@ -142,13 +142,24 @@ function number (c) {
 //console.log(square(3))
 //6. Напишите функцию, которая возвращает корень числа.
 // functionName(num) // Корень этого числа равен
-
+//function root(a){
+	//return Math.sgrt(a)
+//}
+//console.log(root(25))
+ //functionName(a, b, c, d, e);
+ //functiontriangle(a, b, c, d, e){
+ //return a + b + c + d +e;}
+	//console.log(triangle(5, 3, 6, 9, 5))
+ 
 //7. Напишите функцию, которая возвращает периметр пятиугольника.
 // functionName(a, b, c, d, e) // Периметр - ...
-
+//for ( i = o; i < 35;  i +=3 ){
+//console.log(i);
+//}
 //8. Напишите цикл, который выводит каждое третье число в промежутке от 0 до 33.
 // 0 3 6 9 ...
-
+ for (let i = 0; i <= 33; i += 5)
+ console.log(i);
 //9. Напишите цикл, вычисляющий факториал числа 8. (8!)
 // ...
 
