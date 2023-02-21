@@ -116,7 +116,10 @@ function nameIs(name) {
 
 //3. Напишите функцию, которая принимает строку и возвращает ее длину.
 // functionName(" ... ") // Длина строки равна ...
-
+//function strLength(text){
+//	console,log(text.length)
+//}
+//strLength("This ia another")
 //4. Напишите функцию, которая принимает число и проверяет, четное оно или нечетное.
 // functionName(num) // Число - четное || Число - нечетное
 function number (c) {
@@ -133,7 +136,10 @@ function number (c) {
 
 //5. Напишите функцию, которая возвращает квадрат числа.
 // functionName(num) // Квадрат этого числа равен
-
+//function square(num){
+	//return num (2)
+//}
+//console.log(square(3))
 //6. Напишите функцию, которая возвращает корень числа.
 // functionName(num) // Корень этого числа равен
 
